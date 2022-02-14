@@ -1,0 +1,21 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  
+  .main-container-home {
+    grid-area: main;
+    display: grid;
+    display:grid;
+    grid-template-columns: 100%;
+    /* grid-template-areas:
+      "img . sidebar"
+      ;  */
+      grid-gap: 10px;
+      background-image: url(assets/preteens-laughing.jpg);
+      background-size: cover;
+  }
+  
+  .sidebar-container {
+    grid-area: sidebar;
+  }
